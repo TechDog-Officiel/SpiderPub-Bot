@@ -1,0 +1,9 @@
+$nomention
+$title[Vote éfèctuer ♻️]
+$description[$username a vote! Il y a maintenant $getVar[cmd] votes ]
+$setVar[cmd;$sum[$getVar[cmd];1]]
+$footer[$username à aimer le bot]
+
+$useChannel[828647502252736562]
+
+$deletecommand
