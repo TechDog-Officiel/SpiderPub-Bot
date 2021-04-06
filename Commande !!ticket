@@ -1,0 +1,14 @@
+$deletecommand
+$newTicket[$getServerVar[ticket];Pas de message;
+Bonjour $username 
+Pour fermer ton ticket marque ici dans le channel la commande !!close 
+
+
+Merci D'avoir crée un ticket 
+
+
+**Subject**
+{subject};Merci le Channel ticket a été créer {channel};**error** Veuillez réessayer]
+$onlyIf[$guildID!=828214684343074909;]
+
+$deleteIn[11s] 
