@@ -1,0 +1,9 @@
+$nomention
+$botTyping
+$title[Traduction]
+$description[Traduction de Google traduction...
+[France = Anglais ](https://translate.google.com/#view=home&op=translate&sl=fr&tl=en&text=$replaceText[$message; ;+;-1])]
+Search: **$message**
+Auteur: **$username**]
+$footer[]
+$color[3366ff]
