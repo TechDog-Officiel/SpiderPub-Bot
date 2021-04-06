@@ -1,0 +1,9 @@
+$deletecommand
+$nomention
+
+$dm
+Nitro for **$username** generated!
+https://discord.gift/$randomString[10]
+$color[#F2052]
+
+$cooldown[11h; 📛 - Il faut que tu attends %time% avant de faire la commande]
