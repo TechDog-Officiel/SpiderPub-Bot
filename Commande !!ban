@@ -1,0 +1,11 @@
+$nomention
+$onlyPerms[ban;  :name_badge: - Il te manque la permissions : `BANIR DES MEMBRES`]
+$argsCheck[>1; :beginner: - Format invalide : `..ban @user`]
+$allowMention
+$onlyBotPerms[ban;Il me faut la permission bannir]
+$onlyIf[$userExists[$mentioned[1]]==true;:label:  - Veuillez mentionner une personne existante]
+$ban[$mentioned[1]]
+$title[Bannissement]
+$description[⛔ - $username à bien banni pour la raison suivante : `$noMentionMessage`$username[$mentioned[1]]]
+$addTimestamp
+
