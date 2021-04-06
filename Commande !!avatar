@@ -1,0 +1,7 @@
+$nomention
+$title[Photo de profil]
+$description[Voici la photo de profil de <@$mentioned[<;yes]>:]
+$image[$userAvatar[$mentioned[<;yes]]]
+$color[f5d44d]
+$footer[$username]
+$addTimestamp 
