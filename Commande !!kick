@@ -1,0 +1,11 @@
+$nomention
+$argsCheck[1; :beginner: - Format valide : `..kick @user`]
+$onlyPerms[kick; :name_badge: - Tu n'as pas la permission `KICK.MEMBERS`]
+$kickMention
+
+$title[Kick effectué]
+$description[⛔ - $username à bien été kick $username[$mentioned[1]]]
+$image[https://cdn.discordapp.com/attachments/705706165795029055/706432746809065502/3f441ba8a891512172fa1861af7dbedc.gif]
+
+$if[$getServerVar[logs]!=0]
+$channelSendMessage[$getServerVar[logs];$username[$mentioned[1]] sait fait kick par $username#$discriminator[$authorID]]
