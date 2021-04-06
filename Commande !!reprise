@@ -1,0 +1,6 @@
+$deletecommand
+$nomention
+$title[Ticket repris en charge par $username]
+$description[]
+$footer[]
+$color[ff0000]
