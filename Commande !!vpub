@@ -1,0 +1,9 @@
+$deletecommand 
+$nomention 
+$title[⚜ | Vérification éféctuer par un administrateur]
+$description[Nom de l'administrateur : $username]
+$setVar[cmd;$sum[$getVar[verif];1]]
+$onlyPerms[ban;  :name_badge: - Il te manque la permissions : `VÉRIFICATION DES PUB`]
+$color[e67e9c]
+$image[https://cdn.discordapp.com/attachments/828328476519170089/828624293361090580/PicsArt_04-05-03.36.46.jpg]
+$cooldown[3h; 📛 - Il faut que tu attends %time% avant de faire la commande car un autre administrateur l'a fait il y a pas longtemps]
