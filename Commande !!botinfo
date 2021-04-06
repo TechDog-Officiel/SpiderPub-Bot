@@ -1,0 +1,12 @@
+$nomention
+$title[📊 BOT Information 📊]
+$description[
+📄 Server Name : $serverNames
+
+
+🔑 Créateur -> TechDog#7600
+🌍 Members -> $allMembersCount
+🔐 Servers -> $serverCount
+🏓 -> $ping
+$footer[Posted By : $username]
+$color[910909]]
